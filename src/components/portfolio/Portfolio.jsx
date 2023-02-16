@@ -1,0 +1,134 @@
+import "./Portfolio.css"
+
+export default function Portfolio() {
+    return (
+        <section className="services section" id="portfolio">
+            <h2 className="section__title">Portfolio</h2>
+            <span className="section__subtitle"></span>
+
+            <div className="services__container container grid">
+                <div className="services__content">
+                    <div>
+                        <i className="uil uil-browser services__icon"></i>
+                        <h3 className="services__title">
+                            Pet Feeder and Water Dispenser using Website and Android App
+                        </h3>
+                    </div>
+                    <a href="https://youtu.be/w5BulRHJYoc">
+                        <span className="services__button">View More{" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    </a>
+                    {/* <div className="services__modal">
+                        <div className="services__modal-content">
+                            <i className="uil uil-times services__modal-close"></i>
+
+                            <h3 className="services__modal-title"></h3>
+                            <p className="services__modal-description"></p>
+                        </div>
+                    </div> */}
+
+
+                </div>
+                
+                <div className="services__content">
+                    <div>
+                        <i className="uil uil-browser services__icon"></i>
+                        <h3 className="services__title">Meme Generator Website (React)</h3>
+                    </div>
+                    <a href="https://kevinwebtest.github.io/Meme%20Generator/">
+                        <span className="services__button">View More{" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    </a>
+
+
+                </div>
+
+                <div className="services__content">
+                    <div>
+                        <i className="uil uil-browser services__icon"></i>
+                        <h3 className="services__title">
+                            Portfolio Card Website (React)
+                        </h3>
+                    </div>
+                    <a href="https://kevinwebtest.github.io/portfoliocard/">
+                        <span className="services__button">View More{" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    </a>
+                </div>
+
+                <div className="services__content">
+                    <div>
+                        <i className="uil uil-browser services__icon"></i>
+                        <h3 className="services__title">Movie Review Website</h3>
+                    </div>
+
+                    <a href="http://movietalk.infinityfreeapp.com/">
+                        <span className="services__button">View More{" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    </a>
+                </div>
+
+                <div className="services__content">
+                    <div>
+                        <i className="uil uil-browser services__icon"></i>
+                        <h3 className="services__title">Old Portfolio Website</h3>
+                    </div>
+
+                    <a href="">
+                        <span className="services__button">View More{" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    </a>
+                </div>
+
+                <div className="services__content">
+                    <div>
+                        <i className="uil uil-browser services__icon"></i>
+                        <h3 className="services__title">Airbnb Course Website (React)</h3>
+                    </div>
+
+                    <a href="https://kevinwebtest.github.io/Airbnb%20Course/">
+                        <span className="services__button">View More{" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    </a>
+                </div>
+
+                <div className="services__content">
+                    <div>
+                        <i className="uil uil-browser services__icon"></i>
+                        <h3 className="services__title">Vacation Spots Website (React)</h3>
+                    </div>
+
+                    <a href="https://kevinwebtest.github.io/Vacation%20Location/">
+                        <span className="services__button">View More{" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    </a>
+                </div>
+
+                <div className="services__content">
+                    <div>
+                        <i class="uil uil-database services__icon"></i>
+                        <h3 className="services__title">Data Cleansing Telecommunication Dataset</h3>
+                    </div>
+
+                    <a href="https://github.com/kevinwebtest/Telco-Data-Cleansing">
+                        <span className="services__button">View More{" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    </a>
+                </div>
+
+                <div className="services__content">
+                    <div>
+                        <i class="uil uil-database services__icon"></i>
+                        <h3 className="services__title">Data Manipulation</h3>
+                    </div>
+                    <a href="https://github.com/kevinwebtest/Data-Engineer-Projects">
+                        <span className="services__button">View More{" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    </a>
+                </div>
+
+                <div className="services__content">
+                    <div>
+                        <i class="uil uil-database services__icon"></i>
+                        <h3 className="services__title">Performing ETL to provide User Data Analytics</h3>
+                    </div>
+                    <a href="https://github.com/kevinwebtest/User-Data-Analytic-using-ETL">
+                        <span className="services__button">View More{" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+    );
+}
