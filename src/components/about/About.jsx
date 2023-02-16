@@ -1,23 +1,39 @@
+import { useEffect } from "react";
 import "./About.css";
-import AboutImg from "../../assets/profile.png";
 import CV from "../../assets/1 Page Resume 2022 New.pdf";
 import Info from "./Info";
-
+import Typed from 'typed.js';
 
 export default function About() {
+    /*=============== Typing Effect ===============*/
+    useEffect(()=>{
+        const typingEffect = new Typed(".typeeffect",{
+            strings : ["Front End Engineer", "Software Test Engineer", "Trader"],
+            loop : true,
+            typeSpeed : 60,
+            backSpeed : 30,
+            backDelay : 1500
+        });
+        return ()=> {
+            typingEffect.destroy();
+        }
+    }, []);
+    
     return (
         <section className="about section" id="about"> 
             <h2 className="section__title">About</h2>
             <span className="section__subtitle">Self summary</span>
 
             <div className="about__container container grid">
-                <img src={AboutImg} alt="" className="about__img" />
-
+                {/* <img src={AboutImg} alt="" className="about__img" /> */}
+                <div className="about__intro">
+                    <h3 className="about__text">I am a <span className="typeeffect about__effect"></span></h3>
+                </div>
                 <div className="about__data">
                     <Info />
 
                     <p className="about__description">
-                        Software Engineer, I make automation script and simple websites
+                        I make websites, apps, automation scripts and IoT projects.
                     </p>
 
                     <a download="" href={CV} className="button button--flex">Download CV

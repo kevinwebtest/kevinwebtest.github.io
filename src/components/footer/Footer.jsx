@@ -26,7 +26,7 @@ export default function Footer() {
                 </a>
             </div>
 
-            <span className="footer__copy">This Website is created using React.js</span>
+            <span className="footer__copy">This Website was created using React.js</span>
         </div>
       </footer>
     );

@@ -1,4 +1,4 @@
-.home__contioner {
+.home__container {
     row-gap: 7rem;
 }
 
@@ -158,8 +158,9 @@
 /* For medium devices */
 @media screen and (max-width: 768px) {
     .home__content {
-        grid-template-columns: 0.5fr 3fr;
+        grid-template-columns: 0.5fr;
         padding-top: 3.5rem;
+        text-align: center;
     }
 
     .home__img {
@@ -170,8 +171,26 @@
         height: 200px;
     }
 
+    .home__subtitle {
+        padding-left: 0;
+    }
+
+    .home__subtitle::before {
+        height: 0;
+    }
+
+    .home__description {
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .home__data {
         grid-column: 1/3;
+    }
+
+    .home__social-icon {
+        font-size: 1.75rem;
     }
 
     .home__scroll {
@@ -185,6 +204,10 @@
     .home__img {
         width: 180px;
         height: 180px;
+    }
+
+    .home__social-icon {
+        font-size: 1.5rem;
     }
 
     .home__hand {
