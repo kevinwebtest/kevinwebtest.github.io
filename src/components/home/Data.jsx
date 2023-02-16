@@ -4,7 +4,7 @@ export default function Data() {
         <div className="home__data">
             <h1 className="home__title">Kevin Setiawan</h1>
             <h3 className="home__subtitle">Software Engineer</h3>
-            <p className="home__description">I am a software engineer from Jakarta, Indonesia. I aspire to build something impactful.
+            <p className="home__description">I am a software engineer from Jakarta, Indonesia. I aspire to build something impactful. <br />Ex Tokopedia | Ex DANA
             </p>
 
             <a href="#contact" className="button button--flex">

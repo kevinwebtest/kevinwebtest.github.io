@@ -4,7 +4,7 @@ export default function About() {
     return (
         <section className="skills section" id="skills">
             <h2 className="section__title">Skills</h2>
-            <span className="section__subtitle">Tech Stacks</span>
+            <span className="section__subtitle">Tech stacks</span>
             <div className="skills__container container grid">
 
 

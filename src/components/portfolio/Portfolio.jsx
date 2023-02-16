@@ -4,7 +4,7 @@ export default function Portfolio() {
     return (
         <section className="services section" id="portfolio">
             <h2 className="section__title">Portfolio</h2>
-            <span className="section__subtitle"></span>
+            <span className="section__subtitle">Projects I have made</span>
 
             <div className="services__container container grid">
                 <div className="services__content">

@@ -11,8 +11,8 @@ export default function Qualification() {
 
     return (
         <section className="qualification section" id="qualification">
-            <h2 className="section__title">Timeline</h2>
-            <span className="section__subtitle">My life experiences</span>
+            <h2 className="section__title">Experience</h2>
+            <span className="section__subtitle">My timeline</span>
 
             <div className="qualification__container container">
                 <div className="qualification__tabs">
@@ -21,7 +21,7 @@ export default function Qualification() {
                         }
                         onClick={toggleTab}
                     >
-                        <i className="uil uil-briefcase-alt qualification__icon"></i> Experience
+                        <i className="uil uil-briefcase-alt qualification__icon"></i> Work
                     </div>
 
                     <div className={
@@ -99,7 +99,7 @@ export default function Qualification() {
                                 <h3 className="qualification__title">Atma Jaya Catholic University of Indonesia</h3>
                                 <span className="qualification__subtitle">Electrical Engineer, Summa Cum Laude</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> Aug 2022 - Aug 2022
+                                    <i className="uil uil-calendar-alt"></i> Aug 2018 - Aug 2022
                                 </div>
                             </div>
 
