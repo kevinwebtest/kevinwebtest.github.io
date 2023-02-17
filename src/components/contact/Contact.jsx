@@ -28,7 +28,7 @@ export default function Contact() {
                                 type="text" 
                                 name="name" 
                                 className="contact__form-input" 
-                                placeholder="Insert email"
+                                placeholder="Insert name"
                             />
                         </div>
 
