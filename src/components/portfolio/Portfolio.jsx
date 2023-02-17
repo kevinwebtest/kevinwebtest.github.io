@@ -34,8 +34,8 @@ export default function Portfolio() {
                         <i className="uil uil-browser services__icon"></i>
                         <h3 className="services__title">Meme Generator Website (React)</h3>
                     </div>
-                    <a href="https://kevinwebtest.github.io/Meme%20Generator/">
-                        <span className="services__button">View More{" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    <a href="https://kevinwebtest.github.io/meme_generator/">
+                        <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
                     </a>
 
 
@@ -49,7 +49,7 @@ export default function Portfolio() {
                         </h3>
                     </div>
                     <a href="https://kevinwebtest.github.io/portfoliocard/">
-                        <span className="services__button">View More{" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+                        <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
                     </a>
                 </div>
 
@@ -60,7 +60,7 @@ export default function Portfolio() {
                     </div>
 
                     <a href="http://movietalk.infinityfreeapp.com/">
-                        <span className="services__button">View More{" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+                        <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
                     </a>
                 </div>
 
@@ -70,8 +70,8 @@ export default function Portfolio() {
                         <h3 className="services__title">Old Portfolio Website</h3>
                     </div>
 
-                    <a href="">
-                        <span className="services__button">View More{" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    <a href="https://kevinwebtest.github.io/personal_v0/">
+                        <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
                     </a>
                 </div>
 
@@ -81,8 +81,8 @@ export default function Portfolio() {
                         <h3 className="services__title">Airbnb Course Website (React)</h3>
                     </div>
 
-                    <a href="https://kevinwebtest.github.io/Airbnb%20Course/">
-                        <span className="services__button">View More{" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    <a href="https://kevinwebtest.github.io/airbnb_course/">
+                        <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
                     </a>
                 </div>
 
@@ -92,8 +92,8 @@ export default function Portfolio() {
                         <h3 className="services__title">Vacation Spots Website (React)</h3>
                     </div>
 
-                    <a href="https://kevinwebtest.github.io/Vacation%20Location/">
-                        <span className="services__button">View More{" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    <a href="https://kevinwebtest.github.io/vacation_location/">
+                        <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
                     </a>
                 </div>
 
@@ -104,7 +104,7 @@ export default function Portfolio() {
                     </div>
 
                     <a href="https://github.com/kevinwebtest/Telco-Data-Cleansing">
-                        <span className="services__button">View More{" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+                        <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
                     </a>
                 </div>
 
@@ -114,7 +114,7 @@ export default function Portfolio() {
                         <h3 className="services__title">Data Manipulation</h3>
                     </div>
                     <a href="https://github.com/kevinwebtest/Data-Engineer-Projects">
-                        <span className="services__button">View More{" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+                        <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
                     </a>
                 </div>
 
@@ -124,7 +124,7 @@ export default function Portfolio() {
                         <h3 className="services__title">Performing ETL to provide User Data Analytics</h3>
                     </div>
                     <a href="https://github.com/kevinwebtest/User-Data-Analytic-using-ETL">
-                        <span className="services__button">View More{" "} <i className="uil uil-arrow-right services__button-icon"></i></span>
+                        <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
                     </a>
 
                 </div>
