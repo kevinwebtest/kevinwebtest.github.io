@@ -54,7 +54,7 @@
 }
 
 .home__description {
-    max-width: 400px;
+    max-width: 300px;
     margin-bottom: var(--mb-3);
 }
 
@@ -180,7 +180,7 @@
     }
 
     .home__description {
-        width: 450px;
+        width: 300px;
         margin-left: auto;
         margin-right: auto;
     }

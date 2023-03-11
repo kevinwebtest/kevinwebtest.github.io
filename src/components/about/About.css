@@ -73,7 +73,6 @@
     .about__intro {
         /* text-align: center; */
         height: 120px;
-        padding-left: 30px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -108,6 +107,15 @@
 
     .about__description{
         padding: 0; 
+    }
+
+    .about__intro {
+        width: 350px;
+        /* height: 180px; */
+    }
+    
+    .about__text {
+        font-size: 37px;
     }
 }
   
