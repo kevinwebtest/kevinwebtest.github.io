@@ -43,7 +43,7 @@ export default function Portfolio() {
 
                 <div className="services__content">
                     <div>
-                        <i class="uil uil-database services__icon"></i>
+                        <i class="uil uil-browser services__icon"></i>
                         <h3 className="services__title">Notes App</h3>
                     </div>
                     <a href="https://kevinwebtest.github.io/notes_v2/">
