@@ -32,21 +32,31 @@ export default function Portfolio() {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-browser services__icon"></i>
-                        <h3 className="services__title">Meme Generator Website (React)</h3>
+                        <h3 className="services__title">Tenzies Game (React)</h3>
                     </div>
-                    <a href="https://kevinwebtest.github.io/meme_generator/">
+                    <a href="https://kevinwebtest.github.io/tenzies_game/">
                         <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
                     </a>
-
 
                 </div>
 
                 <div className="services__content">
                     <div>
                         <i class="uil uil-browser services__icon"></i>
-                        <h3 className="services__title">Notes App</h3>
+                        <h3 className="services__title">Notes App (React)</h3>
                     </div>
                     <a href="https://kevinwebtest.github.io/notes_v2/">
+                        <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    </a>
+
+                </div>
+
+                <div className="services__content">
+                    <div>
+                        <i className="uil uil-browser services__icon"></i>
+                        <h3 className="services__title">Meme Generator Website (React)</h3>
+                    </div>
+                    <a href="https://kevinwebtest.github.io/meme_generator/">
                         <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
                     </a>
 
