@@ -29,13 +29,13 @@ export default function Header() {
           
           if (currentPos < about) {
             setActiveNav('#home');
-          } else if (currentPos >= about && currentPos < qualification) {
+          } else if (currentPos >= about-1 && currentPos < qualification-1) {
             setActiveNav('#about');
-          } else if (currentPos >= qualification && currentPos < portfolio) {
+          } else if (currentPos >= qualification-1 && currentPos < portfolio-1) {
             setActiveNav('#qualification');
-          } else if (currentPos >= portfolio && currentPos < skills) {
+          } else if (currentPos >= portfolio-1 && currentPos < skills-1) {
             setActiveNav('#portfolio');
-          } else if (currentPos >= skills && currentPos < contact) {
+          } else if (currentPos >= skills-1 && currentPos < contact-1) {
             setActiveNav('#skills');
           } else {
             setActiveNav('#contact');

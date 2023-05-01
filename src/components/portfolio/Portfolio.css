@@ -31,7 +31,7 @@
     color: var(--title-color);
     font-size: var(--small-font-size);
     display: inline-flex;
-    align-items: ceneter;
+    align-items: center;
     column-gap: 0.25rem;
     cursor: pointer;
 }

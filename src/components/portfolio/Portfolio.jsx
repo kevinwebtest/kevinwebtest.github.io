@@ -54,6 +54,17 @@ export default function Portfolio() {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-browser services__icon"></i>
+                        <h3 className="services__title">Japani's Company Profile</h3>
+                    </div>
+                    <a href="https://pupukjapani.pages.dev/">
+                        <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    </a>
+
+                </div>
+
+                <div className="services__content">
+                    <div>
+                        <i className="uil uil-browser services__icon"></i>
                         <h3 className="services__title">Meme Generator Website (React)</h3>
                     </div>
                     <a href="https://kevinwebtest.github.io/meme_generator/">
