@@ -49,7 +49,7 @@ export default function Contact() {
                                 cols="30" 
                                 rows="10" 
                                 className="contact__form-input"
-                                placeholder="Email me your open positions"
+                                placeholder="Email me your open positions or projects you want me to make"
                             >
                             </textarea>
                         </div>
