@@ -12,6 +12,7 @@
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
+  --light-color: hsl(var(--hue), var(--sat), 64%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
 
@@ -19,10 +20,11 @@
   --body-font: "Poppins", sans-serif;
 
   /*.5rem = 8px | 1rem = 16px ...*/
-  --big-font-size: 3.5rem;
+  --huge-font-size: 3.5rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
+  --big-font-size: 1.8rem;
   --normal-font-size: 1rem;
   --small-font-size: 0.875rem;
   --smaller-font-size: 0.813rem;
@@ -53,10 +55,11 @@
 /* Responsive typography */
 @media screen and (max-width: 992px) {
   :root {
-    --big-font-size: 2.75rem;
+    --huge-font-size: 2.75rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
+    --big-font-size: 1.7rem;
     --normal-font-size: 0.938rem;
     --small-font-size: 0.813rem;
     --smaller-font-size: 0.75rem;
@@ -208,7 +211,7 @@ img {
 /* For small devices */
 @media screen and (max-width: 350px) {
   :root {
-    --big-font-size: 2.25rem;
+    --huge-font-size: 2.25rem;
   }
 
   .container {

@@ -26,16 +26,16 @@ export default function About() {
 
             <div className="about__container container grid">
                 {/* <img src={AboutImg} alt="" className="about__img" /> */}
-                <div className="about__intro">
-                    <h3 className="about__text">I am a <span className="typeeffect about__effect"></span></h3>
-                </div>
+                
                 <div className="about__data">
+                    <h3 className="about__text">I am a <span className="typeeffect about__effect"></span></h3>
                     <Info />
-
-                    <p className="about__description">
-                        I make websites, apps, automation scripts and IoT projects.
-                    </p>
-
+                </div>
+                <div className="about__intro">
+                    <h1 className="about__question">What I do?</h1>
+                    <h3 className="about__answer">I design + develop websites, apps, automation scripts and IoT projects.</h3>
+                </div>
+                <div className="about__button">
                     <a download="" href={CV} className="button button--flex">Download CV
                         <svg
                             class="button__icon"
