@@ -32,6 +32,16 @@ export default function Portfolio() {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-browser services__icon"></i>
+                        <h3 className="services__title">Weather App (React Native)</h3>
+                    </div>
+                    <a href="https://expo.dev/@kevin_setiawan/TheWeatherApp">
+                        <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    </a>
+                </div>
+
+                <div className="services__content">
+                    <div>
+                        <i className="uil uil-browser services__icon"></i>
                         <h3 className="services__title">Tenzies Game (React)</h3>
                     </div>
                     <a href="https://kevinwebtest.github.io/tenzies_game/">
