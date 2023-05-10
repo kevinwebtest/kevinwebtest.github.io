@@ -26,16 +26,16 @@ export default function Header() {
           const skills = document.getElementById('skills').offsetTop;
           const contact = document.getElementById('contact').offsetTop;
 
-          
-          if (currentPos < about) {
+          console.log(currentPos)
+          if (currentPos < about-300) {
             setActiveNav('#home');
-          } else if (currentPos >= about-1 && currentPos < qualification-1) {
+          } else if (currentPos >= about-300 && currentPos < qualification-300) {
             setActiveNav('#about');
-          } else if (currentPos >= qualification-1 && currentPos < portfolio-1) {
+          } else if (currentPos >= qualification-300 && currentPos < portfolio-300) {
             setActiveNav('#qualification');
-          } else if (currentPos >= portfolio-1 && currentPos < skills-1) {
+          } else if (currentPos >= portfolio-300 && currentPos < skills-300) {
             setActiveNav('#portfolio');
-          } else if (currentPos >= skills-1 && currentPos < contact-1) {
+          } else if (currentPos >= skills-300 && currentPos < contact-300) {
             setActiveNav('#skills');
           } else {
             setActiveNav('#contact');
