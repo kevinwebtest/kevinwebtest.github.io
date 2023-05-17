@@ -42,6 +42,28 @@ export default function Portfolio() {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-browser services__icon"></i>
+                        <h3 className="services__title">Find Me Prompt (Next.js)</h3>
+                    </div>
+                    <a href="https://find-me-prompt.vercel.app/">
+                        <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    </a>
+
+                </div>
+
+                <div className="services__content">
+                    <div>
+                        <i className="uil uil-browser services__icon"></i>
+                        <h3 className="services__title">Japani's Company Profile</h3>
+                    </div>
+                    <a href="https://pupukjapani.pages.dev/">
+                        <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    </a>
+
+                </div>
+
+                <div className="services__content">
+                    <div>
+                        <i className="uil uil-browser services__icon"></i>
                         <h3 className="services__title">Tenzies Game (React)</h3>
                     </div>
                     <a href="https://kevinwebtest.github.io/tenzies_game/">
@@ -61,16 +83,6 @@ export default function Portfolio() {
 
                 </div>
 
-                <div className="services__content">
-                    <div>
-                        <i className="uil uil-browser services__icon"></i>
-                        <h3 className="services__title">Japani's Company Profile</h3>
-                    </div>
-                    <a href="https://pupukjapani.pages.dev/">
-                        <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
-                    </a>
-
-                </div>
 
                 <div className="services__content">
                     <div>
