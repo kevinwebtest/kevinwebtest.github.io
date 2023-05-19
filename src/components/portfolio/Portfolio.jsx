@@ -1,13 +1,13 @@
 import "./Portfolio.css"
 
-export default function Portfolio() {
+export default function Portfolio() {    
     return (
         <section className="services section" id="portfolio">
             <h2 className="section__title">Portfolio</h2>
             <span className="section__subtitle">Projects I have made</span>
 
             <div className="services__container container grid">
-                <div className="services__content">
+                <div className="services__content hidden">
                     <div>
                         <i className="uil uil-browser services__icon"></i>
                         <h3 className="services__title">
@@ -29,9 +29,9 @@ export default function Portfolio() {
 
                 </div>
                 
-                <div className="services__content">
+                <div className="services__content hidden">
                     <div>
-                        <i className="uil uil-browser services__icon"></i>
+                        <i className="uil uil-apps services__icon"></i>
                         <h3 className="services__title">Weather App (React Native)</h3>
                     </div>
                     <a href="https://expo.dev/@kevin_setiawan/TheWeatherApp">
@@ -39,7 +39,7 @@ export default function Portfolio() {
                     </a>
                 </div>
 
-                <div className="services__content">
+                <div className="services__content hidden">
                     <div>
                         <i className="uil uil-browser services__icon"></i>
                         <h3 className="services__title">Find Me Prompt (Next.js)</h3>
@@ -50,7 +50,7 @@ export default function Portfolio() {
 
                 </div>
 
-                <div className="services__content">
+                <div className="services__content hidden">
                     <div>
                         <i className="uil uil-browser services__icon"></i>
                         <h3 className="services__title">Japani's Company Profile</h3>
@@ -61,7 +61,7 @@ export default function Portfolio() {
 
                 </div>
 
-                <div className="services__content">
+                <div className="services__content hidden">
                     <div>
                         <i className="uil uil-browser services__icon"></i>
                         <h3 className="services__title">Tenzies Game (React)</h3>
@@ -72,7 +72,7 @@ export default function Portfolio() {
 
                 </div>
 
-                <div className="services__content">
+                <div className="services__content hidden">
                     <div>
                         <i class="uil uil-browser services__icon"></i>
                         <h3 className="services__title">Notes App (React)</h3>
@@ -84,7 +84,7 @@ export default function Portfolio() {
                 </div>
 
 
-                <div className="services__content">
+                <div className="services__content hidden">
                     <div>
                         <i className="uil uil-browser services__icon"></i>
                         <h3 className="services__title">Meme Generator Website (React)</h3>
@@ -95,7 +95,7 @@ export default function Portfolio() {
 
                 </div>
 
-                <div className="services__content">
+                <div className="services__content hidden">
                     <div>
                         <i className="uil uil-browser services__icon"></i>
                         <h3 className="services__title">
@@ -107,7 +107,7 @@ export default function Portfolio() {
                     </a>
                 </div>
 
-                <div className="services__content">
+                <div className="services__content hidden">
                     <div>
                         <i className="uil uil-browser services__icon"></i>
                         <h3 className="services__title">Movie Review Website</h3>
@@ -118,7 +118,7 @@ export default function Portfolio() {
                     </a>
                 </div>
 
-                <div className="services__content">
+                <div className="services__content hidden">
                     <div>
                         <i className="uil uil-browser services__icon"></i>
                         <h3 className="services__title">Old Portfolio Website</h3>
@@ -129,7 +129,7 @@ export default function Portfolio() {
                     </a>
                 </div>
 
-                <div className="services__content">
+                <div className="services__content hidden">
                     <div>
                         <i className="uil uil-browser services__icon"></i>
                         <h3 className="services__title">Airbnb Course Website (React)</h3>
@@ -140,7 +140,7 @@ export default function Portfolio() {
                     </a>
                 </div>
 
-                <div className="services__content">
+                <div className="services__content hidden">
                     <div>
                         <i className="uil uil-browser services__icon"></i>
                         <h3 className="services__title">Vacation Spots Website (React)</h3>
@@ -151,7 +151,7 @@ export default function Portfolio() {
                     </a>
                 </div>
 
-                <div className="services__content">
+                <div className="services__content hidden">
                     <div>
                         <i class="uil uil-database services__icon"></i>
                         <h3 className="services__title">Data Cleansing Telecommunication Dataset</h3>
@@ -162,7 +162,7 @@ export default function Portfolio() {
                     </a>
                 </div>
 
-                <div className="services__content">
+                <div className="services__content hidden">
                     <div>
                         <i class="uil uil-database services__icon"></i>
                         <h3 className="services__title">Data Manipulation</h3>
@@ -172,7 +172,7 @@ export default function Portfolio() {
                     </a>
                 </div>
 
-                <div className="services__content">
+                <div className="services__content hidden">
                     <div>
                         <i class="uil uil-database services__icon"></i>
                         <h3 className="services__title">Performing ETL to provide User Data Analytics</h3>

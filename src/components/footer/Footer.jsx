@@ -4,7 +4,7 @@ export default function Footer() {
     return (
       <footer className="footer">
         <div className="footer__container container">
-            <ul className="footer__list">
+            {/* <ul className="footer__list">
                 <li>
                     <a href="#about" className="footer__link">About</a>
                 </li>
@@ -14,7 +14,7 @@ export default function Footer() {
                 <li>
                     <a href="#qualification" className="footer__link">Experience</a>
                 </li>                
-            </ul>
+            </ul> */}
 
             <div className="footer__social">
                 <a href="https://www.linkedin.com/in/setiawan-kevin/" className="footer__social-link" target="_black">
@@ -26,7 +26,7 @@ export default function Footer() {
                 </a>
             </div>
 
-            <span className="footer__copy">This Website was created using React.js</span>
+            <p className="footer__copy">This website was created using React.js<br />&copy;Kevin Setiawan.</p>
         </div>
       </footer>
     );

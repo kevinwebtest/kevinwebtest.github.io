@@ -33,6 +33,8 @@
 .skills__data {
     display: flex;
     column-gap: 0.5rem;
+    align-items:center;
+
 }
 
 .skills .bx {
@@ -43,7 +45,6 @@
 .skills__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    line-height: 30px;
 }
 
 /*=============== BREAKPOINTS ===============*/

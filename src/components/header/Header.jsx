@@ -26,7 +26,7 @@ export default function Header() {
           const skills = document.getElementById('skills').offsetTop;
           const contact = document.getElementById('contact').offsetTop;
 
-          console.log(currentPos)
+        //   console.log(currentPos)
           if (currentPos < about-300) {
             setActiveNav('#home');
           } else if (currentPos >= about-300 && currentPos < qualification-300) {

@@ -5,8 +5,11 @@ import "./Qualification.css"
 export default function Qualification() {
     const [toggleState, setToggleState] = useState(true);
 
-    const toggleTab = () => {
-        setToggleState(prevState=>!prevState);
+    const toggleTabWork = () => {
+        setToggleState(true);
+    };
+    const toggleTabAcademy = () => {
+        setToggleState(false);
     };
 
     return (
@@ -19,7 +22,7 @@ export default function Qualification() {
                     <div className={
                             toggleState === true ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"
                         }
-                        onClick={toggleTab}
+                        onClick={toggleTabWork}
                     >
                         <i className="uil uil-briefcase-alt qualification__icon"></i> Work
                     </div>
@@ -27,13 +30,13 @@ export default function Qualification() {
                     <div className={
                             toggleState === false ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"
                         }
-                        onClick={toggleTab}
+                        onClick={toggleTabAcademy}
                     >
                         <i className="uil uil-graduation-cap qualification__icon"></i> Academy
                     </div>
                 </div>
 
-                <div className="qualification__sections">
+                <div className="qualification__sections hidden">
                     <div className={
                             toggleState===true ? "qualification__content qualification__content-active" : "qualification__content"
                         }

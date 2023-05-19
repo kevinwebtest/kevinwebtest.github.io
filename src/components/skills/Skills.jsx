@@ -5,7 +5,7 @@ export default function About() {
         <section className="skills section" id="skills">
             <h2 className="section__title">Skills</h2>
             <span className="section__subtitle">Tech stacks</span>
-            <div className="skills__container container grid">
+            <div className="skills__container container grid hidden">
 
 
                 <div className="skills__content">
@@ -72,9 +72,16 @@ export default function About() {
                             </div>
 
                             <div className="skills__data">
-                                <i className='bx bxl-nodejs' ></i>
+                                <i className='bx bxl-react' ></i>
                                 <div>
-                                    <h3 className="skills__name">Node.js</h3>
+                                    <h3 className="skills__name">React.js</h3>
+                                </div>
+                            </div>
+
+                            <div className="skills__data">
+                                <i className='bx bx-windows' ></i>
+                                <div>
+                                    <h3 className="skills__name">Next.js</h3>
                                 </div>
                             </div>
 
@@ -97,7 +104,14 @@ export default function About() {
                             <div className="skills__data">
                                 <i className='bx bxl-react' ></i>
                                 <div>
-                                    <h3 className="skills__name">React.js</h3>
+                                    <h3 className="skills__name">React Native</h3>
+                                </div>
+                            </div>
+
+                            <div className="skills__data">
+                                <i className='bx bxl-nodejs' ></i>
+                                <div>
+                                    <h3 className="skills__name">Node.js</h3>
                                 </div>
                             </div>
 

@@ -33,7 +33,7 @@ export default function About() {
                 </div>
                 <div className="about__intro">
                     <h1 className="about__question">What I do?</h1>
-                    <h3 className="about__answer">I design + develop websites, apps, automation scripts and IoT projects.</h3>
+                    <h3 className="about__answer hidden">I design + develop websites, apps, automation scripts and IoT projects.</h3>
                 </div>
                 <div className="about__button">
                     <a download="" href={CV} className="button button--flex">Download CV

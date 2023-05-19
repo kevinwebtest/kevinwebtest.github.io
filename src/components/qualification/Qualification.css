@@ -40,11 +40,17 @@
 
 
 .qualification__content {
-    display: none;
+    opacity: 0;
+    transform: translateY(20px) scale(0.9);
+    height: 0;
+    overflow: hidden;
+    transition: opacity 1s, transform 1s;
 }
 
 .qualification__content-active {
-    display: block;
+    height: auto;
+    opacity: 1;
+    transform: translateY(0px) scale(1);
 }
 
 .qualification__data {
