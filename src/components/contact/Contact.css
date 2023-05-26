@@ -38,6 +38,7 @@
     padding: 0.25rem;
     background-color: var(--body-color);
     z-index: 10;
+    user-select: none;
 }
 
 .contact__form-area {

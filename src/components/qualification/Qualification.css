@@ -15,6 +15,7 @@
     opacity: 70%;
     margin: 0 var(--mb-1) 0 40px;
     cursor: pointer;
+    user-select: none;
 }
 
 .qualification__button:hover {
