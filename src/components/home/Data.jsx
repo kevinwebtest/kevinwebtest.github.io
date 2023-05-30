@@ -23,7 +23,7 @@ export default function Data() {
 				</div>
 			</div>
 
-			<a href="#contact" className="button button--flex">
+			<a href="#contact" className="button button--flex contact__button">
 				<span className="button--text">
 					Contact Me
 					<svg

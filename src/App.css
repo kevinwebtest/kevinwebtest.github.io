@@ -66,6 +66,12 @@
   }
 }
 
+@media screen and (max-width: 576px) {
+  :root {
+    --huge-font-size: 2rem;
+  }
+}
+
 /*=============== BASE ===============*/
 * {
   margin: 0;
@@ -191,6 +197,7 @@ img {
 .button--text{
   display: flex;
   align-items: center;
+  justify-content: center;
   
   /* Fallback: Set a background color. */
   background-color: var(--text-color);
