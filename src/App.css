@@ -103,18 +103,21 @@ ul {
 
 a {
   text-decoration: none;
+  user-select: none;
 }
 
 button {
   cursor: pointer;
   border: none;
   outline: none;
+  user-select: none;
 }
 
 img {
   max-width: 100%;
   height: auto;
 }
+
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
@@ -150,19 +153,6 @@ img {
 }
 
 /*=============== BUTTONS ===============*/
-.button {
-  display: inline-block;
-  background-color: var(--title-color);
-  color: var(--container-color);
-  padding: 1.25rem 2rem;
-  border-radius: 1rem;
-  font-weight: var(--font-medium);
-}
-
-.button:hover {
-  background-color: var(--title-color-dark);
-}
-
 .button__icon {
   margin-left: var(--mb-0-5);
 }
@@ -170,6 +160,83 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
+}
+
+/*=============== BUTTONS ANIMATION ===============*/
+.button {
+  display: inline-block;
+  background-color: var(--title-color);
+  /* color: var(--container-color); */
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  font-weight: var(--font-semi-bold);
+
+  background-image: linear-gradient(
+    45deg, 
+    var(--title-color) 50%, 
+    var(--body-color) 50%
+  );
+  background-size: 270%;
+  /* background-repeat: repeat; */
+  background-position: top right;
+  animation: button-animation 0.4s ease-out forwards;
+  /* box-shadow: 7px 4px 20px 1px rgba(0,0,0,0.15); */
+}
+
+.button:hover {
+  /* box-shadow: 3px 2px 10px 1px rgba(0,0,0,0.15); */
+  transition: 0.5s;
+}
+
+.button--text{
+  display: flex;
+  align-items: center;
+  
+  /* Fallback: Set a background color. */
+  background-color: var(--text-color);
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(
+    45deg,
+    var(--body-color) 50%,
+    var(--title-color) 50%
+  );
+  
+  /* Set the background size and repeat properties. */
+  background-size: 270%;
+  /* background-repeat: repeat; */
+  background-position: top right;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+
+  animation: button-animation 0.4s ease-out forwards;
+}
+
+.button:hover, .button:hover span{
+  animation: button-animation-rev 0.4s ease-out forwards;
+}
+
+@keyframes button-animation {
+  0% {
+    background-position: top right;
+  }
+  100% {
+    background-position: top left;
+  }
+}
+
+@keyframes button-animation-rev {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
 }
 
 /*=============== BREAKPOINTS ===============*/

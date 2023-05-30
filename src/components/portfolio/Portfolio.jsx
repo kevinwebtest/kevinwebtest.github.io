@@ -60,6 +60,17 @@ export default function Portfolio() {
                     </a>
 
                 </div>
+                
+                <div className="services__content hidden">
+                    <div>
+                        <i className="uil uil-browser services__icon"></i>
+                        <h3 className="services__title">Best Movies DB</h3>
+                    </div>
+                    <a href="https://best-movies-db.vercel.app/">
+                        <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    </a>
+
+                </div>
 
                 <div className="services__content hidden">
                     <div>
@@ -83,6 +94,16 @@ export default function Portfolio() {
 
                 </div>
 
+                <div className="services__content hidden">
+                    <div>
+                        <i class="uil uil-browser services__icon"></i>
+                        <h3 className="services__title">Basic Bookmark Extension</h3>
+                    </div>
+                    <a href="https://github.com/kevinwebtest/basically_bookmark_extension">
+                        <span className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
+                    </a>
+
+                </div>
 
                 <div className="services__content hidden">
                     <div>

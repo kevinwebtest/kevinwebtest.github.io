@@ -13,6 +13,7 @@ export default function Home() {
 					<div className="home__img"></div>
 
 					<Data />
+					
 				</div>
 
 				<ScrollDown />
