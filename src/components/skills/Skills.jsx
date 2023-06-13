@@ -32,6 +32,12 @@ export default function About() {
                                     <h3 className="skills__name">Groovy</h3>                                    
                                 </div>
                             </div>
+                            {/* <div className="skills__data">
+                                <i className='bx bxl-java'></i>
+                                <div>
+                                    <h3 className="skills__name">Java</h3>                                    
+                                </div>
+                            </div> */}
                         </div>
 
                         <div className="skills__group">
@@ -91,6 +97,13 @@ export default function About() {
                                     <h3 className="skills__name">Appium</h3>
                                 </div>
                             </div>
+                            
+                            <div className="skills__data">
+                                <i class='bx bxl-firebase' ></i>
+                                <div>
+                                    <h3 className="skills__name">Firebase</h3>
+                                </div>
+                            </div>
                         </div>
                     
                         <div className="skills__group">
@@ -109,16 +122,22 @@ export default function About() {
                             </div>
 
                             <div className="skills__data">
-                                <i className='bx bxl-nodejs' ></i>
+                                <i className='bx bxl-nodejs'></i>
                                 <div>
                                     <h3 className="skills__name">Node.js</h3>
                                 </div>
                             </div>
 
                             <div className="skills__data">
-                                <i className='bx bxl-git' ></i>
+                                <i className='bx bxl-git'></i>
                                 <div>
                                     <h3 className="skills__name">Git</h3>
+                                </div>
+                            </div>
+                            <div className="skills__data">
+                                <i className='bx bxl-mongodb'></i>
+                                <div>
+                                    <h3 className="skills__name">MongoDB</h3>
                                 </div>
                             </div>
                         </div>

@@ -13,7 +13,7 @@ export default function Header() {
 
     /*=============== Toggle Menu ===============*/
     const [menu, setMenu] = useState(false);
-    const[activeNav, setActiveNav] = useState("#home")
+    const [activeNav, setActiveNav] = useState("#home");
 
     /*=============== Change Active Nav ===============*/
     useEffect(() => {
