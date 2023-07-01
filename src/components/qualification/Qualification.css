@@ -16,11 +16,13 @@
     margin: 0 var(--mb-1) 0 40px;
     cursor: pointer;
     user-select: none;
+    transition: color 0.3s, opacity 0.3s, transform 0.5s;
 }
 
 .qualification__button:hover {
     color: var(--title-color-dark);
     opacity: 100%;
+    transform: translateY(-5px);
 }
 
 .qualification__icon {
@@ -42,7 +44,7 @@
 
 .qualification__content {
     opacity: 0;
-    transform: translateY(20px) scale(0.9);
+    transform: translateY(20px);
     height: 0;
     overflow: hidden;
     transition: opacity 1s, transform 1s;
@@ -51,7 +53,7 @@
 .qualification__content-active {
     height: auto;
     opacity: 1;
-    transform: translateY(0px) scale(1);
+    transform: translateY(0px);
 }
 
 .qualification__data {

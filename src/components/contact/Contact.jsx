@@ -1,18 +1,44 @@
-import { useRef } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
 
 export default function Contact() {
 
+    const [sent, setSent] = useState(false);
+
     const form = useRef();
 
+    const sentMessage = ()=>{
+        setSent(true);
+        setTimeout(()=>{
+            setSent(false);
+        }, 1500);
+    };
+    
     const sendEmail = (e) => {
         e.preventDefault();
 
         emailjs.sendForm('service_8cf88ld', 'template_ukgzua2', form.current, '89--XKVAM3itiUMrs')
         e.target.reset();
+        sentMessage();
     };
 
+    useEffect(() => {
+        let timeoutId;
+    
+        if (sent) {
+            timeoutId = setTimeout(() => {
+                setSent(false);
+            }, 1500);
+        }
+    
+        return () => {
+          if (timeoutId) {
+            clearTimeout(timeoutId);
+          }
+        };
+    }, [sent]);
+    
     return (
         <section className="contact section" id="contact">
             <h2 className="section__title">Contact</h2>
@@ -29,6 +55,7 @@ export default function Contact() {
                                 name="name" 
                                 className="contact__form-input" 
                                 placeholder="Insert name"
+                                required
                             />
                         </div>
 
@@ -39,6 +66,7 @@ export default function Contact() {
                                 name="email" 
                                 className="contact__form-input" 
                                 placeholder="Insert email"
+                                required
                             />
                         </div>
 
@@ -50,11 +78,12 @@ export default function Contact() {
                                 rows="10" 
                                 className="contact__form-input"
                                 placeholder="Email me your open positions or projects you want me to make"
+                                required
                             >
                             </textarea>
                         </div>
 
-                        <button className="button button--flex">
+                        <button className="button button--flex ">
                             <span className="button--text">
                                 Send Email
                                 <svg
@@ -93,6 +122,9 @@ export default function Contact() {
                     </div> */}
                 </div>
 
+            </div>
+            <div className={`contact__sent-email ${sent ? "sent" : ""}`}>
+                <span>Email Sent!</span>
             </div>
         </section>
     );
