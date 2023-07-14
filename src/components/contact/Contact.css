@@ -49,6 +49,35 @@
     resize: none;
 }
 
+
+.contact__sent-email {
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--title-color);
+    padding: .1rem 1rem;
+    border-radius: 1rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility .5s, opacity .5s;
+
+}
+.sent {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .5s;
+
+}
+
+.contact__sent-email span {
+    color: var(--container-color);
+}
+
+.uil-times {
+    font-size: var(--h2-font-size);
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
