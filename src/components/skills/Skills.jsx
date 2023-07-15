@@ -32,12 +32,12 @@ export default function About() {
                                     <h3 className="skills__name">Groovy</h3>                                    
                                 </div>
                             </div>
-                            {/* <div className="skills__data">
+                            <div className="skills__data">
                                 <i className='bx bxl-java'></i>
                                 <div>
                                     <h3 className="skills__name">Java</h3>                                    
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
 
                         <div className="skills__group">
