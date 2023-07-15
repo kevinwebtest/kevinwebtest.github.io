@@ -12,6 +12,7 @@ import Footer from './components/footer/Footer';
 
 function App() {
   useEffect(()=>{
+    const watchedEl = ['.hidden', '.right-hidden']
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry=>{
             console.log(entry);
@@ -21,11 +22,18 @@ function App() {
         })
     })
 
-    const hidden = document.querySelectorAll(".hidden");
-    hidden.forEach(item => observer.observe(item));
+    watchedEl.forEach((el)=>{
+      const hiddenEl = document.querySelectorAll(el);
+      hiddenEl.forEach(item => observer.observe(item));
+    })
 
-    return () => observer.disconnect();
-},[])
+    return () => {
+      watchedEl.forEach((el)=>{
+        const hiddenEl = document.querySelectorAll(el);
+        hiddenEl.forEach(item => observer.unobserve(item));
+      });
+    }
+  },[])
   return (
     <div className="App">
       <Header />

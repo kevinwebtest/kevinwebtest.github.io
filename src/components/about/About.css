@@ -128,11 +128,7 @@
     .about__info {
         margin-bottom: var(--mb-0-5);
     }
-
-    /* .about__description {
-        padding: 0 5rem;
-        margin-bottom: 2rem;
-    } */
+      
 }
 
 @media screen and (max-width: 768px) {

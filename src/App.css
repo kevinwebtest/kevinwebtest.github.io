@@ -124,6 +124,24 @@ img {
   height: auto;
 }
 
+/*=============== FADE IN ANIMATION ===============*/
+.hidden {
+  opacity: 0;
+  transform: translateY(20px) scale(0.9);
+  transition: opacity 0.7s, transform 0.7s;
+}
+
+.right-hidden {
+  opacity: 0;
+  transform: translateX(150px);
+  transition: opacity 1.2s, transform 1.2s;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
