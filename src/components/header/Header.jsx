@@ -100,9 +100,6 @@ export default function Header({setDarkTheme}) {
                             </a>
                         </li>
                     </ul>
-                    {/* <div className="nav__theme" onClick={()=>setDarkTheme(prev=>!prev)}>
-                        Change Theme
-                    </div> */}
                     <div class="nav__theme toggle-switch">
                         <label class="nav__label" >
                             <input class="nav__checkbox" type="checkbox" onClick={()=>setDarkTheme(prev=>!prev)} />
