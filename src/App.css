@@ -9,11 +9,12 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --light-color: hsl(var(--hue), var(--sat), 64%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --title-color: hsl(var(--hue), var(--sat), 20%);       /*dark gray*/
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);   /*black*/
+  --text-color: hsl(var(--hue), var(--sat), 46%);        /*gray*/
+  --light-color: hsl(var(--hue), var(--sat), 64%);       /*light gray, opp of gray*/
+  --body-color: hsl(var(--hue), var(--sat), 98%);        /*almost white opp of black*/
+  --title-color-light: hsl(var(--hue), var(--sat), 90%); /*not quite white, opp of dark grey*/ 
   --container-color: #fff;
 
   /*========== Font and typography ==========*/
@@ -91,15 +92,26 @@ textarea {
   font-size: var(--normal-font-size);
 }
 
-body {
+body .light{
   background-color: var(--body-color);
   color: var(--text-color);
+}
+
+body {
+  background-color: var(--title-color-dark);
+  color: var(--light-color);
+}
+
+.light h1,
+.light h2,
+.light h3 {
+  color: var(--title-color);
 }
 
 h1,
 h2,
 h3 {
-  color: var(--title-color);
+  color: var(--container-color);
   font-weight: var(--font-semi-bold);
 }
 
@@ -148,9 +160,13 @@ img {
   padding: 6rem 0 2rem;
 }
 
+.light .section__title{
+  color: var(--title-color);
+}
+
 .section__title {
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: var(--title-color-light);
 }
 
 .section__subtitle {
@@ -189,7 +205,7 @@ img {
 /*=============== BUTTONS ANIMATION ===============*/
 .button {
   display: inline-block;
-  background-color: var(--title-color);
+  background-color: var(--title-color-light);
   /* color: var(--container-color); */
   padding: 1.25rem 2rem;
   border-radius: 1rem;
@@ -197,14 +213,25 @@ img {
 
   background-image: linear-gradient(
     45deg, 
-    var(--title-color) 50%, 
-    var(--body-color) 50%
+    var(--title-color-light) 50%, 
+    var(--title-color-dark) 50%
   );
+  
   background-size: 270%;
   /* background-repeat: repeat; */
   background-position: top right;
   animation: button-animation 0.4s ease-out forwards;
   /* box-shadow: 7px 4px 20px 1px rgba(0,0,0,0.15); */
+}
+
+.light .button{
+  background-color: var(--title-color);
+
+  background-image: linear-gradient(
+    45deg, 
+    var(--title-color) 50%, 
+    var(--body-color) 50%
+  );
 }
 
 .button:hover {
@@ -218,13 +245,13 @@ img {
   justify-content: center;
   
   /* Fallback: Set a background color. */
-  background-color: var(--text-color);
+  background-color: var(--light-color);
   
   /* Create the gradient. */
   background-image: linear-gradient(
     45deg,
-    var(--body-color) 50%,
-    var(--title-color) 50%
+    var(--title-color-dark) 50%,
+    var(--title-color-light) 50%
   );
   
   /* Set the background size and repeat properties. */
@@ -242,8 +269,28 @@ img {
   animation: button-animation 0.4s ease-out forwards;
 }
 
+.light .button--text{
+  /* Fallback: Set a background color. */
+  background-color: var(--text-color);
+
+  /* Create the gradient. */
+  background-image: linear-gradient(
+    45deg,
+    var(--body-color) 50%,
+    var(--title-color) 50%
+  );
+}
+
 .button:hover, .button:hover span{
   animation: button-animation-rev 0.4s ease-out forwards;
+}
+
+.button__icon {
+  fill: var(--title-color-dark);
+}
+
+.light .button__icon {
+  fill: var(--body-color);
 }
 
 @keyframes button-animation {

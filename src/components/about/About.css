@@ -36,16 +36,28 @@
     color: var(--light-color);
 }
 
+.light .about__answer {
+    color: var(--light-color);
+}
+
 .about__text {
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-1);
     align-self: flex-start;
+    color: var(--light-color); 
+}
+
+.light .about__text {
+    color: var(--light-color); 
 }
 
 .about__effect {
-    color: var(--light-color);
+    color: var(--body-color);
 }
 
+.light .about__effect {
+    color: var(--title-color);
+}
 
 .about__info {
     grid-template-columns: repeat(2, 220px);
@@ -54,17 +66,26 @@
 }
 
 .about__box {
-    background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--title-color);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 0.75rem;
     text-align: center;
     padding: 1rem 1.25rem;
 }
 
+.light .about__box {
+    background-color: var(--container-color);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
 .about__icon {
     font-size: 1.5rem;
-    color: var(--title-color);
+    color: var(--title-color-light);
     margin-bottom: var(--mb-0-5);
+}
+
+.light .about__icon {
+    color: var(--title-color);
 }
 
 .about__title {

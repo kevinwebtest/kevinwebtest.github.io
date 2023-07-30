@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./Header.css";
 
-export default function Header() {
+export default function Header({setDarkTheme}) {
     /*=============== Change Background Header ===============*/
     window.addEventListener("scroll", function() {
         const header = document.querySelector(".header");
@@ -100,7 +100,15 @@ export default function Header() {
                             </a>
                         </li>
                     </ul>
-
+                    {/* <div className="nav__theme" onClick={()=>setDarkTheme(prev=>!prev)}>
+                        Change Theme
+                    </div> */}
+                    <div class="nav__theme toggle-switch">
+                        <label class="nav__label" >
+                            <input class="nav__checkbox" type="checkbox" onClick={()=>setDarkTheme(prev=>!prev)} />
+                            <span class="nav__slider"></span>
+                        </label>
+                    </div>
                     <i className="uil uil-times nav__close" onClick={()=>setMenu(!menu)}></i>
                 </div>
 

@@ -11,7 +11,7 @@
 .qualification__button {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
-    color: var(--title-color);
+    color: var(--title-color-light);
     opacity: 70%;
     margin: 0 var(--mb-1) 0 40px;
     cursor: pointer;
@@ -19,10 +19,18 @@
     transition: color 0.3s, opacity 0.3s, transform 0.5s;
 }
 
+.light .qualification__button {
+    color: var(--title-color);
+}
+
 .qualification__button:hover {
-    color: var(--title-color-dark);
+    color: var(--body-color);
     opacity: 100%;
     transform: translateY(-5px);
+}
+
+.light .qualification__button:hover {
+    color: var(--title-color-dark);
 }
 
 .qualification__icon {
@@ -31,8 +39,12 @@
 }
 
 .qualification__active {
-    color: var(--title-color-dark);
+    color: var(--body-color);
     opacity: 100%;
+}
+
+.light .qualification__active {
+    color: var(--title-color-dark);
 }
 
 .qualification__sections {
@@ -82,16 +94,24 @@
     display: inline-block;
     width: 13px;
     height: 13px;
-    background-color: var(--text-color);
+    background-color: var(--light-color);
     border-radius: 50%;
+}
+
+.light .qualification__rounder {
+    background-color: var(--text-color);
 }
 
 .qualification__line {
     display: block;
     width: 1px;
     height: 100%;
-    background-color: var(--text-color);
+    background-color: var(--light-color);
     transform: translate(6px,-7px);
+}
+
+.light .qualification__line {
+    background-color: var(--text-color);
 }
 
 

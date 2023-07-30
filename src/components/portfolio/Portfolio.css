@@ -6,10 +6,16 @@
 
 .services__content {
     position: relative;
-    border: 1px solid rgba(0,0,0, 0.1);
-    background-color: var(--container-color);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1.25rem;;
+    background-color: var(--title-color);
     padding: 2rem 2rem 2rem 2.5rem;
     transition: transform 0.4s, box-shadow 0.3s;
+}
+
+.light .services__content {
+    background-color: var(--container-color);
+    border-color: rgba(0,0,0, 0.1);
 }
 
 .services__content:hover {
@@ -20,9 +26,13 @@
 .services__icon {
     display: block;
     font-size: 2rem;
-    color: var(--title-color);
+    color: var(--title-color-light);
     margin-bottom: var(--mb-1);
 
+}
+
+.light .services__icon {
+    color: var(--title-color);
 }
 
 .services__title {
@@ -34,12 +44,16 @@
 
 
 .services__button {
-    color: var(--title-color);
+    color: var(--title-color-light);
     font-size: var(--small-font-size);
     display: inline-flex;
     align-items: center;
     column-gap: 0.25rem;
     cursor: pointer;
+}
+
+.light .services__button {
+    color: var(--title-color);
 }
 
 .services__button-icon {

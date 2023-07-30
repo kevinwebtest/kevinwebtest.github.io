@@ -6,11 +6,13 @@ import Skills from './components/skills/Skills';
 import Qualification from './components/qualification/Qualification';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact';
-import { useEffect } from "react"
+import { useState, useEffect } from "react"
 import ScrollUp from './components/scrollUp/ScrollUp';
 import Footer from './components/footer/Footer';
 
 function App() {
+  const [darkTheme, setDarkTheme] = useState(true);
+
   useEffect(()=>{
     const watchedEl = ['.hidden', '.right-hidden']
     const observer = new IntersectionObserver(entries => {
@@ -35,9 +37,9 @@ function App() {
     }
   },[])
   return (
-    <div className="App">
-      <Header />
-      <main className='main'>
+    <div className={`App ${darkTheme ? "" : "light"}`}>
+      <Header setDarkTheme={setDarkTheme} />
+      <main className="main">
         <Home />
         <About />
         <Qualification />
