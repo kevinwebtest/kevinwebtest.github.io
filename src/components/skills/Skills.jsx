@@ -20,9 +20,9 @@ export default function About() {
                             </div>
 
                             <div className="skills__data">
-                                <i className='bx bxl-c-plus-plus' ></i>
+                                <i class='bx bxl-typescript' ></i>
                                 <div>
-                                    <h3 className="skills__name">C++</h3>
+                                    <h3 className="skills__name">TypeScript</h3>
                                 </div>
                             </div>
 
@@ -52,6 +52,13 @@ export default function About() {
                                 <i className='bx bxl-php' ></i>
                                 <div>
                                     <h3 className="skills__name">PHP</h3>
+                                </div>
+                            </div>
+
+                            <div className="skills__data">
+                                <i className='bx bxl-c-plus-plus' ></i>
+                                <div>
+                                    <h3 className="skills__name">C++</h3>
                                 </div>
                             </div>
 
