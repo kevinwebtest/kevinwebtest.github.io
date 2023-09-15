@@ -56,6 +56,13 @@ export default function About() {
                             </div>
 
                             <div className="skills__data">
+                                <i class='bx bxl-go-lang' ></i>
+                                <div>
+                                    <h3 className="skills__name">Golang</h3>
+                                </div>
+                            </div>
+
+                            <div className="skills__data">
                                 <i className='bx bxl-c-plus-plus' ></i>
                                 <div>
                                     <h3 className="skills__name">C++</h3>
