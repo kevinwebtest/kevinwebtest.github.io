@@ -118,6 +118,13 @@ export default function About() {
                                     <h3 className="skills__name">Firebase</h3>
                                 </div>
                             </div>
+                            
+                            <div className="skills__data">
+                                <i class='bx bxl-docker'></i>
+                                <div>
+                                    <h3 className="skills__name">Docker</h3>
+                                </div>
+                            </div>
                         </div>
                     
                         <div className="skills__group">
@@ -152,6 +159,12 @@ export default function About() {
                                 <i className='bx bxl-mongodb'></i>
                                 <div>
                                     <h3 className="skills__name">MongoDB</h3>
+                                </div>
+                            </div>
+                            <div className="skills__data">
+                                <i class='bx bxl-kubernetes' ></i>
+                                <div>
+                                    <h3 className="skills__name">Kubernetes</h3>
                                 </div>
                             </div>
                         </div>
