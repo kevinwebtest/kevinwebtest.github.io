@@ -20,7 +20,7 @@ export default function About() {
                             </div>
 
                             <div className="skills__data">
-                                <i class='bx bxl-typescript' ></i>
+                                <i className='bx bxl-typescript' ></i>
                                 <div>
                                     <h3 className="skills__name">TypeScript</h3>
                                 </div>
@@ -56,7 +56,7 @@ export default function About() {
                             </div>
 
                             <div className="skills__data">
-                                <i class='bx bxl-go-lang' ></i>
+                                <i className='bx bxl-go-lang' ></i>
                                 <div>
                                     <h3 className="skills__name">Golang</h3>
                                 </div>
@@ -70,7 +70,7 @@ export default function About() {
                             </div>
 
                             <div className="skills__data">
-                                <i class='bx bxs-data'></i>
+                                <i className='bx bxs-data'></i>
                                 <div>
                                     <h3 className="skills__name">SQL</h3>
                                 </div>
@@ -106,21 +106,21 @@ export default function About() {
                             </div>
 
                             <div className="skills__data">
-                                <i class='bx bx-mobile' ></i>
+                                <i className='bx bx-mobile' ></i>
                                 <div>
                                     <h3 className="skills__name">Appium</h3>
                                 </div>
                             </div>
                             
                             <div className="skills__data">
-                                <i class='bx bxl-firebase' ></i>
+                                <i className='bx bxl-firebase' ></i>
                                 <div>
                                     <h3 className="skills__name">Firebase</h3>
                                 </div>
                             </div>
                             
                             <div className="skills__data">
-                                <i class='bx bxl-docker'></i>
+                                <i className='bx bxl-docker'></i>
                                 <div>
                                     <h3 className="skills__name">Docker</h3>
                                 </div>
@@ -162,7 +162,7 @@ export default function About() {
                                 </div>
                             </div>
                             <div className="skills__data">
-                                <i class='bx bxl-kubernetes' ></i>
+                                <i className='bx bxl-kubernetes' ></i>
                                 <div>
                                     <h3 className="skills__name">Kubernetes</h3>
                                 </div>

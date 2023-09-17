@@ -17,7 +17,6 @@ function App() {
     const watchedEl = ['.hidden', '.right-hidden']
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry=>{
-            console.log(entry);
             if(entry.isIntersecting){
                 entry.target.classList.add('fade-in');
             }

@@ -85,7 +85,7 @@ export default function Portfolio() {
 
                 <div className="services__content hidden">
                     <div>
-                        <i class="uil uil-browser services__icon"></i>
+                        <i className="uil uil-browser services__icon"></i>
                         <h3 className="services__title">Notes App (React)</h3>
                     </div>
                     <a href="https://kevinwebtest.github.io/notes_v2/">
@@ -96,7 +96,7 @@ export default function Portfolio() {
 
                 <div className="services__content hidden">
                     <div>
-                        <i class="uil uil-browser services__icon"></i>
+                        <i className="uil uil-browser services__icon"></i>
                         <h3 className="services__title">Basic Bookmark Extension</h3>
                     </div>
                     <a href="https://github.com/kevinwebtest/basically_bookmark_extension">
@@ -174,7 +174,7 @@ export default function Portfolio() {
 
                 <div className="services__content hidden">
                     <div>
-                        <i class="uil uil-database services__icon"></i>
+                        <i className="uil uil-database services__icon"></i>
                         <h3 className="services__title">Data Cleansing Telecommunication Dataset</h3>
                     </div>
 
@@ -185,7 +185,7 @@ export default function Portfolio() {
 
                 <div className="services__content hidden">
                     <div>
-                        <i class="uil uil-database services__icon"></i>
+                        <i className="uil uil-database services__icon"></i>
                         <h3 className="services__title">Data Manipulation</h3>
                     </div>
                     <a href="https://github.com/kevinwebtest/Data-Engineer-Projects">
@@ -195,7 +195,7 @@ export default function Portfolio() {
 
                 <div className="services__content hidden">
                     <div>
-                        <i class="uil uil-database services__icon"></i>
+                        <i className="uil uil-database services__icon"></i>
                         <h3 className="services__title">Performing ETL to provide User Data Analytics</h3>
                     </div>
                     <a href="https://github.com/kevinwebtest/User-Data-Analytic-using-ETL">

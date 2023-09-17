@@ -100,10 +100,10 @@ export default function Header({setDarkTheme}) {
                             </a>
                         </li>
                     </ul>
-                    <div class="nav__theme toggle-switch">
-                        <label class="nav__label" >
-                            <input class="nav__checkbox" type="checkbox" onClick={()=>setDarkTheme(prev=>!prev)} />
-                            <span class="nav__slider"></span>
+                    <div className="nav__theme toggle-switch">
+                        <label className="nav__label" >
+                            <input className="nav__checkbox" type="checkbox" onClick={()=>setDarkTheme(prev=>!prev)} />
+                            <span className="nav__slider"></span>
                         </label>
                     </div>
                     <i className="uil uil-times nav__close" onClick={()=>setMenu(!menu)}></i>

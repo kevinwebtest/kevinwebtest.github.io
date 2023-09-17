@@ -4,7 +4,7 @@ export default function Data() {
 		<div className="home__data">
 			<div className="home__intro">
 				<div className="text-top text-animate">
-					<div class="text-top-inside text-animate-inside ">
+					<div className="text-top-inside text-animate-inside ">
 						<h1 className="home__title">Kevin Setiawan</h1>
 						{/* <h3 className="home__subtitle">Software Engineer</h3> */}
 
@@ -12,7 +12,7 @@ export default function Data() {
 
 				</div>
 				<div className="text-bottom text-animate">
-					<div class="text-bottom-inside text-animate-inside">
+					<div className="text-bottom-inside text-animate-inside">
 						<span className="home__description">
 							I am a software engineer from Jakarta, Indonesia. I aspire to build something impactful.
 						</span>
@@ -27,7 +27,7 @@ export default function Data() {
 				<span className="button--text">
 					Contact Me
 					<svg
-						class="button__icon"
+						className="button__icon"
 						xmlns="http://www.w3.org/2000/svg"
 						width="24"
 						height="24"
