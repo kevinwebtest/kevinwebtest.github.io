@@ -42,6 +42,21 @@ export default function Qualification() {
                         }
                     >
                         <div className="qualification__data">
+                            <div></div>
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                            <div>
+                                <h3 className="qualification__title">Software Engineer</h3>
+                                <span className="qualification__subtitle">Samsung Research & Development Institute Indonesia</span>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt"></i> Jun 2023 - Nov 2023
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">Software Engineer</h3>
                                 <span className="qualification__subtitle">Tokopedia</span>
@@ -79,7 +94,7 @@ export default function Qualification() {
                                 <h3 className="qualification__title">Computer Lab Assistant</h3>
                                 <span className="qualification__subtitle">Atma Jaya Catholic University of Indonesia</span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> Aug 2019 - July 2022
+                                    <i className="uil uil-calendar-alt"></i> Aug 2019 - Jul 2022
                                 </div>
                             </div>
 
