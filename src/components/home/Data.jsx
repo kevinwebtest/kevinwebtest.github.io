@@ -14,10 +14,10 @@ export default function Data() {
 				<div className="text-bottom text-animate">
 					<div className="text-bottom-inside text-animate-inside">
 						<span className="home__description">
-							I am a software engineer from Jakarta, Indonesia. I aspire to build something impactful.
+							I am a software engineer from South Tangerang, Indonesia. I aspire to build something impactful.
 						</span>
 						<span className="home__description">
-							Ex Tokopedia | Ex DANA
+							Ex Samsung | Ex Tokopedia | Ex DANA
 						</span>
 					</div>
 				</div>
