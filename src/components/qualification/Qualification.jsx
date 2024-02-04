@@ -64,7 +64,7 @@ export default function Qualification() {
                             </div>
                             <div>
                                 <h3 className="qualification__title">Software Engineer</h3>
-                                <span className="qualification__subtitle">Samsung Research & Development Institute Indonesia</span>
+                                <span className="qualification__subtitle">Samsung Research & Development</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i> Jun 2023 - Nov 2023
                                 </div>
