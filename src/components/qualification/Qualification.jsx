@@ -44,7 +44,7 @@ export default function Qualification() {
                         <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">Software Engineer (Frontend)</h3>
-                                <span className="qualification__subtitle">Untitled Startup</span>
+                                <span className="qualification__subtitle">Waresix</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i> Nov 2023 - Now
                                 </div>

@@ -113,6 +113,13 @@ export default function About() {
                             </div>
                             
                             <div className="skills__data">
+                                <i className='bx bx-cog' ></i>
+                                <div>
+                                    <h3 className="skills__name">Cypress</h3>
+                                </div>
+                            </div>
+                            
+                            <div className="skills__data">
                                 <i className='bx bxl-firebase' ></i>
                                 <div>
                                     <h3 className="skills__name">Firebase</h3>
@@ -153,6 +160,12 @@ export default function About() {
                                 <i className='bx bxl-git'></i>
                                 <div>
                                     <h3 className="skills__name">Git</h3>
+                                </div>
+                            </div>
+                            <div className="skills__data">
+                                <i className='bx bxl-kickstarter'></i>
+                                <div>
+                                    <h3 className="skills__name">Katalon</h3>
                                 </div>
                             </div>
                             <div className="skills__data">
