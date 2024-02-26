@@ -31,15 +31,14 @@
 
 .skills__group {
     display: grid;
-    align-items: flex-start;
+    align-content: space-between;
     row-gap: 1rem;
 }
 
 .skills__data {
     display: flex;
     column-gap: 0.5rem;
-    align-items:center;
-
+    align-items: center;
 }
 
 .skills .bx {
