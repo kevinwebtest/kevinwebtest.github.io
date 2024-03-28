@@ -42,7 +42,7 @@ export default function Qualification() {
                             toggleState===true ? "qualification__content qualification__content-active" : "qualification__content"
                         }
                     >
-                        <QualificationData role="Software Engineer (Frontend)" company="Waresix" dateSpan="Nov 2023 - Now"/>
+                        <QualificationData role="Software Engineer (Frontend)" company="Waresix" dateSpan="Nov 2023 - Mar 2024"/>
                         <QualificationData role="Software Engineer" company="Samsung Research & Development" dateSpan="Jun 2023 - Nov 2023" right={true} />
                         <QualificationData role="Software Engineer" company="Tokopedia" dateSpan="Oct 2022 - Dec 2022" />
                         <QualificationData role="Software Development Engineer in Test" company="DANA Indonesia" dateSpan="Aug 2021 - Feb 2022" right={true} />
