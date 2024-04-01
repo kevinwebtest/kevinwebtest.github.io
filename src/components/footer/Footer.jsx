@@ -14,7 +14,7 @@ export default function Footer() {
                 </a>
             </div>
 
-            <p className="footer__copy">This website was created using React.js<br />&copy;Kevin Setiawan.</p>
+            <p className="footer__copy">This website was created using React.js<br />&copy;Kevin Setiawan</p>
         </div>
       </footer>
     );

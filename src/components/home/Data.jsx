@@ -17,7 +17,7 @@ export default function Data() {
 							I am a software engineer from South Tangerang, Indonesia. I aspire to build something impactful.
 						</span>
 						<span className="home__description">
-							Ex Samsung | Ex Tokopedia | Ex DANA
+							@Traveloka | Ex Samsung | Ex Tokopedia | Ex DANA
 						</span>
 					</div>
 				</div>

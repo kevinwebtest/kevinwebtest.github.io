@@ -176,7 +176,7 @@
 
     40%,
     70% {
-        transform: translate3d(0, -60%, 0);
+        transform: translate3d(0, -50%, 0);
     }
 
     100% {

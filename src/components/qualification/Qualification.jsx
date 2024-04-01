@@ -42,11 +42,12 @@ export default function Qualification() {
                             toggleState===true ? "qualification__content qualification__content-active" : "qualification__content"
                         }
                     >
-                        <QualificationData role="Software Engineer (Frontend)" company="Waresix" dateSpan="Nov 2023 - Mar 2024"/>
-                        <QualificationData role="Software Engineer" company="Samsung Research & Development" dateSpan="Jun 2023 - Nov 2023" right={true} />
-                        <QualificationData role="Software Engineer" company="Tokopedia" dateSpan="Oct 2022 - Dec 2022" />
-                        <QualificationData role="Software Development Engineer in Test" company="DANA Indonesia" dateSpan="Aug 2021 - Feb 2022" right={true} />
-                        <QualificationData role="Computer Lab Assistant" company="Atma Jaya Catholic University of Indonesia" dateSpan="Aug 2019 - Jul 2022" />
+                        <QualificationData role="Software Engineer - Web" company="Traveloka" dateSpan="Apr 2024 - Now"/>
+                        <QualificationData role="Software Engineer (Frontend)" company="Waresix" dateSpan="Nov 2023 - Mar 2024" right={true}/>
+                        <QualificationData role="Software Engineer" company="Samsung Research & Development" dateSpan="Jun 2023 - Nov 2023" />
+                        <QualificationData role="Software Engineer" company="Tokopedia" dateSpan="Oct 2022 - Dec 2022" right={true} />
+                        <QualificationData role="Software Development Engineer in Test" company="DANA Indonesia" dateSpan="Aug 2021 - Feb 2022" />
+                        <QualificationData role="Computer Lab Assistant" company="Atma Jaya Catholic University of Indonesia" dateSpan="Aug 2019 - Jul 2022" right={true} />
                     </div>
 
                     <div className={
