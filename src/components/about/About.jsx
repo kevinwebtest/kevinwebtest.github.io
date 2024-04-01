@@ -8,7 +8,7 @@ export default function About() {
     /*=============== Typing Effect ===============*/
     useEffect(()=>{
         const typingEffect = new Typed(".typeeffect",{
-            strings : ["Frontend Engineer", "Software Test Engineer", "Trader"],
+            strings : ["Frontend Engineer", "Software Test Engineer"],
             loop : true,
             typeSpeed : 60,
             backSpeed : 30,
